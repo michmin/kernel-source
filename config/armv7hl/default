@@ -3974,6 +3974,7 @@ CONFIG_CRASHER=m
 CONFIG_XILLYBUS=m
 # CONFIG_XILLYBUS_PCIE is not set
 CONFIG_XILLYBUS_OF=m
+CONFIG_RANDOM_TRUST_BOOTLOADER=y
 
 #
 # I2C support
@@ -5760,10 +5761,6 @@ CONFIG_DRM_HDLCD=m
 CONFIG_DRM_MALI_DISPLAY=m
 # CONFIG_DRM_RADEON is not set
 # CONFIG_DRM_AMDGPU is not set
-
-#
-# ACP (Audio CoProcessor) Configuration
-#
 
 #
 # AMD Library routines
